@@ -2,7 +2,8 @@ import numpy as np
 import cv2 as cv
 from matplotlib import pyplot as plt
 
-img = cv.imread('a.jpg',0)
+img = cv.imread('1_Image/a.jpg',0)
+
 cv.imshow('image',img)
 
 plt.imshow(img, cmap = 'gray', interpolation = 'bicubic')

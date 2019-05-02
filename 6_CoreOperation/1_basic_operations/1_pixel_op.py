@@ -10,9 +10,9 @@ print(green)
 
 img[100, 100] = [255, 255, 255]
 for i in range(20):
-    img[150 + i, 150+i] = [255, 0, 0]
+    img[150 + i, 150 + i] = [255, 0, 0]
 
-#better to use (more optimized)
+# better to use (more optimized)
 print(img.item(10, 10, 2))
 img.itemset((10, 10, 2), 255)
 
@@ -22,5 +22,5 @@ print(img.dtype)
 
 cv.imshow('img', img)
 k = cv.waitKey(0)
-if k == 27:         # wait for ESC key to exit
+if k == 27:  # wait for ESC key to exit
     cv.destroyAllWindows()

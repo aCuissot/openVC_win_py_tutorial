@@ -1,4 +1,5 @@
 import cv2 as cv
+
 img1 = cv.imread('logo.png')
 img2 = cv.imread('robot.png')
 print(img1.shape)

@@ -3,7 +3,7 @@ import cv2 as cv
 
 cap = cv.VideoCapture(0)
 
-while(True):
+while True:
     ret, frame = cap.read()
     gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
 

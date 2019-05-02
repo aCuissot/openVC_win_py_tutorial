@@ -1,6 +1,6 @@
 import numpy as np
 import cv2 as cv
-cap = cv.VideoCapture('2_video/output.avi')
+cap = cv.VideoCapture('output.avi')
 while True:
     ret, frame = cap.read()
     gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)

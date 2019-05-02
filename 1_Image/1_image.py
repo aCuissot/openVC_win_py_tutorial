@@ -15,5 +15,5 @@ k = cv.waitKey(0)
 if k == 27:         # wait for ESC key to exit
     cv.destroyAllWindows()
 elif k == ord('s'): # wait for 's' key to save and exit
-    cv.imwrite('aa.png',img)
+    cv.imwrite('1_Image/aa.png',img)
     cv.destroyAllWindows()

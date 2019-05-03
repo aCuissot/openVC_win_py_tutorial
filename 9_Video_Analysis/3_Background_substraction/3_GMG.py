@@ -3,7 +3,7 @@ import cv2 as cv
 
 cap = cv.VideoCapture('vtest.avi')
 kernel = cv.getStructuringElement(cv.MORPH_ELLIPSE, (3, 3))
-fgbg = cv.createBackgroundSubtractorGMG()
+fgbg = cv.bgsegm.createBackgroundSubtractorGMG()
 while True:
     ret, frame = cap.read()
     fgmask = fgbg.apply(frame)

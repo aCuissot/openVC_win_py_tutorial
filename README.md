@@ -14,3 +14,5 @@ Packages
          opencv-python 4.1.0.25
 
          opencv-contrib-python 4.1.0.25
+
+Official repo : https://github.com/opencv/opencv/tree/master/samples/python

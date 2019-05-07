@@ -2,7 +2,7 @@ import numpy as np
 import cv2 as cv
 from matplotlib import pyplot as plt
 
-img = cv.imread('poly.jpg', 0)
+img = cv.imread('../../Data/in/poly.jpg', 0)
 # Initiate FAST detector
 star = cv.xfeatures2d.StarDetector_create()
 # Initiate BRIEF extractor
@@ -13,4 +13,3 @@ kp = star.detect(img, None)
 kp, des = brief.compute(img, kp)
 print(brief.descriptorSize())
 print(des.shape)
-#TODO ICI AUSSI CA MARCHE PAS!!

@@ -2,7 +2,7 @@ import numpy as np
 import cv2 as cv
 from matplotlib import pyplot as plt
 
-img = cv.imread('poly.jpg', 0)
+img = cv.imread('../../Data/in/poly.jpg', 0)
 # Initiate ORB detector
 orb = cv.ORB_create()
 # find the keypoints with ORB

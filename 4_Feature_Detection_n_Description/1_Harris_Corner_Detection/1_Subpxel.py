@@ -1,7 +1,7 @@
 import numpy as np
 import cv2 as cv
 
-filename = 'chessboard2.jpg'
+filename = '../../Data/in/chessboard2.jpg'
 img = cv.imread(filename)
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 # find Harris corners
@@ -20,4 +20,4 @@ res = np.hstack((centroids, corners))
 res = np.int0(res)
 img[res[:, 1], res[:, 0]] = [0, 0, 255]
 img[res[:, 3], res[:, 2]] = [0, 255, 0]
-cv.imwrite('subpixel5.png', img)
+cv.imwrite('../../Data/out/4.1.subpixel5.png', img)

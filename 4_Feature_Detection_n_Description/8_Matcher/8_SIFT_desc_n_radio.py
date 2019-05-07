@@ -2,8 +2,8 @@ import numpy as np
 import cv2 as cv
 from matplotlib import pyplot as plt
 
-img1 = cv.imread('pierre.png', 0)  # queryImage
-img2 = cv.imread('paysage.png', 0)  # trainImage
+img1 = cv.imread('../../Data/in/pierre.png', 0)  # queryImage
+img2 = cv.imread('../../Data/in/paysage.png', 0)  # trainImage
 # Initiate SIFT detector
 sift = cv.SIFT()
 # find the keypoints and descriptors with SIFT

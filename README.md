@@ -1,5 +1,5 @@
 # openVC_win_py_tutorial
-Trying to follow openCV python tutorial here: https://docs.opencv.org/3.4.0/d6/d00/tutorial_py_root.html
+Trying to follow openCV python 3.4.0 tutorial here: https://docs.opencv.org/3.4.0/d6/d00/tutorial_py_root.html
 
 I use:
 
